@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>google maps</title>
+	<link rel="shortcut icon" href="http://www.freeiconspng.com/uploads/maps-icon-3.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="map" id="map"></div>
+	<div id="right-panel">
+		<div class="map__info">
+			<span class="map__text">Точка А:</span>
+			<input class="map__input" type="text" name="start" id="start2">
+    <span class="map__text">Точка Б:</span>
+    <input class="map__input" type="text" name="end" id="end2">
+    <input type="submit" id="submit" value="Проложить маршрут">
+  </div>
+  <div id="directions-panel"></div>
+</div>
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbtl1kG1MaP91VDaqJd-P7erLYlCpginM&language=ru&region=RU">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src="js/first.js"></script>
+</body>
+</html>
